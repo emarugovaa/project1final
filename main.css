@@ -1,0 +1,325 @@
+
+a {
+	text-decoration: none;
+
+	font-size:20px;
+	font-family: 'Rubik', sans-serif;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.menyja_qender{
+	margin: auto;
+    width: 73%;
+}
+
+.pa_pike{
+	list-style-type: none;
+}
+
+
+
+.qender{
+    text-align: center;
+    
+}
+
+
+
+
+.task{
+
+	text-align:center;
+	text-decoration: none;
+	font-size:20px;
+	font-family:font-family: 'Rubik', sans-serif;
+	float: left;	
+	list-style-type: none;
+}
+
+
+
+
+nav a:link {
+    color: #fe869e;
+    padding: 20px;
+    font-weight: bold;
+}
+
+nav a:visited {
+	color: #fe869e;
+}
+
+nav a:hover {
+    background-color:#fe869e;
+    color: white;
+}
+
+
+nav a:active {
+	color: white;
+    background-color: #fe869e;
+}
+
+
+.jam_ketu {
+    color: white!important;
+    background-color: #fe869e;
+
+}
+
+.menyja{
+	text-align:center;
+}
+
+.divi-mbajtes {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    padding: 0;
+}
+.fotoja {
+    text-align: center;
+    vertical-align: bottom;
+    background: url('../image/koverii.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.hija {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.moto {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+	font-weight: bold;
+	display: table-cell;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.hija .moto .divi-mbajtes .fotoja {
+	margin: 100px;
+}
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.kolonat {
+    float: left;
+    width: 29%;
+    padding: 10px;
+    height: 500px; 
+    margin:1%;
+    background-color: white;
+    font-family: 'Text Me One', sans-serif;
+    font-size: 28px;
+    overflow:hidden;
+    text-align:justify; 
+    font-weight: bold;
+
+}
+
+.kolona2{
+	width:100%;
+}
+
+.roww:after {
+    content: "";
+    display: table;
+    clear: both;
+    border-spacing: 20px;
+
+}
+
+.column {
+    display: -webkit-inline-box;    
+    width: 30%;
+    height: 300px; 
+    margin: 1%;
+    background-color: #fe869e;
+    margin-top: 20px;
+    font-family: 'Text Me One', sans-serif;
+    vertical-align: middle;
+    border-radius: 270px;
+    color: white;
+}
+
+
+.perqindja {
+	top: 7%;
+    left: 32%;
+    position: relative;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.teksti_te_perqindja {
+    top: 58%;
+    left: -4%;
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.paragrafi_i_fundit{
+	font-family: 'Text Me One', sans-serif;
+	font-size: 20px;
+	padding: 0px 80px 20px 80px;
+}
+
+.title{
+	margin-top: -10px;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Text Me One', sans-serif;
+}
+
+footer{
+    padding: 1em;
+    /*margin-bottom: 10px;*/
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:  #f7d5dc;
+    clear: left;
+    text-align: center;
+    font-family: 'Text Me One', sans-serif;
+}
+ .ndarja{
+ 	padding: 70px 0px;
+ }
+
+ hr { background-color:  #f7d5dc; height: 3px; border: 0; }	
+
+.kolnonat_te_produktet {
+    float: left;
+    width: 29%;
+    padding: 10px;
+    height: 330px; 
+    margin:1%;
+    background-color: white;
+    font-family: 'Text Me One', sans-serif;
+    font-size: 28px;
+    overflow:hidden;
+    text-align:justify; 
+    font-weight: bold;
+    -webkit-box-shadow: 10px 10px 37px -2px rgba(247,213,220,1);
+	-moz-box-shadow: 10px 10px 37px -2px rgba(247,213,220,1);
+	box-shadow: 10px 10px 37px -2px rgba(247,213,220,1);
+}
+
+
+
+.row_te_produktet:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ .divi_fotos{
+ 	height:255px;
+ 	/*border:1px solid red;*/
+ 	/*padding:20px;*/
+ 	overflow: hidden;
+ }
+
+ .divi_tekstit{
+ 	margin-top: 20px;
+ 	height: 30px;
+ 	padding: 10px;
+ 	/*border:1px solid green;*/
+ 	text-align: center;
+ 	font-family: 'Text Me One', sans-serif;
+ 	font-weight: bold;
+ 	font-size: 22px;
+ }
+
+ .column2 {
+    float: left;
+    width: 35%;
+    padding: 10px;
+    height: 330px; 
+    margin:1%;
+    background-color: white;
+    font-family: 'Text Me One', sans-serif;
+    font-size: 20px;
+    overflow:hidden;
+    text-align:justify; 
+    font-weight: bold;
+    -webkit-box-shadow: 10px 10px 37px -2px rgba(247,213,220,1);
+	-moz-box-shadow: 10px 10px 37px -2px rgba(247,213,220,1);
+	box-shadow: 10px 10px 37px -2px rgba(247,213,220,1);
+}
+
+
+ .column1 {
+  
+    width: 8%;
+    float: left;
+    padding: 10px;
+    height: 330px; 
+    margin:1%;
+    background-color: white;
+}
+
+
+.row_te_recetat:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ .column2 {
+    float: left;
+    width: 35%;
+    padding: 10px;
+    height: 330px; 
+    margin:1%;
+    background-color: white;
+    font-family: 'Text Me One', sans-serif;
+    font-size: 20px;
+    overflow:hidden;
+    text-align:justify; 
+    font-weight: bold;
+    -webkit-box-shadow: 10px 10px 37px -2px rgba(247,213,220,1);
+	-moz-box-shadow: 10px 10px 37px -2px rgba(247,213,220,1);
+	box-shadow: 10px 10px 37px -2px rgba(247,213,220,1);
+}
+
+
+ .column1 {
+  
+    width: 8%;
+    float: left;
+    padding: 10px;
+    height: 330px; 
+    margin:1%;
+    background-color: white;
+}
+
+
+.row_te_recetat:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.kolonat_thate {
+    width: 30%;
+}
+
+.kolona_e_mesit {
+    margin: auto;
+    width: 19%;
+    padding: 30px;
+}
